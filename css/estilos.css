@@ -22,7 +22,10 @@ html {
 body{
     font-size: 16px; /*1 rem =10px*/
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--azul_obscuro)
+    background-color: var(--azul_obscuro);
+
+    background-image: linear-gradient( to top, var(--gris_claro) 0%, var(--blanco) 20% );
+
 }
 
 /* estilos para el header */
@@ -74,4 +77,13 @@ h1{
 .tecnicas{
 text-align: center;}
 
+.footer_iconos{
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer_icono{
+    border: 1px solid #d0d0d0;
+    border-radius: 50%;
+}
 
